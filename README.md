@@ -1,16 +1,20 @@
-# livetracking
+# livetracking_dart
+A live tracking app.
 
-A new Flutter project.
+Description
+============
+1. This app uses flutter and OpenStreetMap.
+2. Fetches data from phpMyAdmin/MySQL from the web
 
-## Getting Started
+How it works
+============
+1. Grabs all the available data from the database and store it in the app.
+2. Filters the data based on the `selectedDate` made by the user.
+3. User can change the `timeFrom` and `timeTo` and the path of every single person available will be shown to the user.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+What's Next
+============
+1. Still hasn't been implemented on real data.
+2. Still struggle for constant switch of states of location services. (teleportation)
+ 
